@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="935b45a4-97f1-4048-a7db-2327bcc2e55a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/soscraper/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/soscraper/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soscraper/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/soscraper/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soscraper/spiders/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/soscraper/spiders/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,7 +18,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/soscraper/spiders/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="243">
@@ -33,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/soscraper/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+            <state relative-caret-position="557">
+              <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
               <folding>
                 <element signature="e#193#207#0" expanded="true" />
               </folding>
@@ -57,7 +54,7 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/soscraper/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="1009">
               <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
             </state>
           </provider>
@@ -88,9 +85,9 @@
         <option value="$PROJECT_DIR$/soscraper/soscraper/items.py" />
         <option value="$PROJECT_DIR$/soscraper/soscraper/spiders/__init__.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" />
-        <option value="$PROJECT_DIR$/soscraper/pipelines.py" />
-        <option value="$PROJECT_DIR$/soscraper/spiders/__init__.py" />
         <option value="$PROJECT_DIR$/soscraper/settings.py" />
+        <option value="$PROJECT_DIR$/soscraper/spiders/__init__.py" />
+        <option value="$PROJECT_DIR$/soscraper/pipelines.py" />
       </list>
     </option>
   </component>
@@ -103,8 +100,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1087" />
   </component>
@@ -219,10 +216,19 @@
       <option name="presentableId" value="Default" />
       <updated>1541282122198</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added MongoPipeline&#10;&#10;Added link follower&#10;&#10;Limited scraped items to 100">
+      <created>1541462822829</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541462822829</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1087" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -230,8 +236,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32982087" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3329821" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32359082" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13219616" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32665965" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2713348" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -254,7 +260,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Added MongoPipeline&#10;&#10;Added link follower&#10;&#10;Limited scraped items to 100" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added MongoPipeline&#10;&#10;Added link follower&#10;&#10;Limited scraped items to 100" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/soscraper/spiders/__init__.py">
@@ -382,27 +389,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/soscraper/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Togagui/Main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/soscraper/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-          <folding>
-            <element signature="e#193#207#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -412,6 +402,23 @@
           <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
           <folding>
             <element signature="e#162#175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soscraper/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1009">
+          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soscraper/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+          <folding>
+            <element signature="e#193#207#0" expanded="true" />
           </folding>
         </state>
       </provider>

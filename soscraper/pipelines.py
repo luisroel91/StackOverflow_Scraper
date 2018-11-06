@@ -12,7 +12,7 @@ class SoscraperPipeline(object):
     def process_item(self, item, spider):
         return item
 
-
+"""
 class MongoDBPipeline(object):
 
     def __init__(self, mongo_uri, mongo_db):
@@ -38,3 +38,4 @@ class MongoDBPipeline(object):
         logging.debug("Post added to MongoDB")
 
         return item
+"""
