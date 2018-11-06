@@ -27,3 +27,6 @@ class SoSpider(scrapy.Spider):
             item['view_count'] = view.xpath('@title').extract()
 
             yield item
+
+        for link in response.xpath('//div[@class="pager fl"]/a[@rel="next"]/@href'):
+            yield response.follow(link, self.parse)
